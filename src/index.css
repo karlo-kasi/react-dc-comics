@@ -11,7 +11,11 @@
 
 nav ul li {
   font-size: 11px
+}
 
+ul li a.active,
+ul li a:hover {
+  background: lightblue;
 }
 
 footer ul li a {
