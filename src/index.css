@@ -1,4 +1,26 @@
+* {
+  font-family: sans-serif;
+}
+
 /* body {
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto
 } */
+
+
+
+nav ul li {
+  font-size: 11px
+
+}
+
+footer ul li a {
+  font-size: 11px;
+  color: lightgray
+}
+
+
+
+p {
+  font-size: 13px;
+}
