@@ -2,7 +2,7 @@ import logo from "../img/dc-logo.png"
 import NavBar from "./NavBar"
 
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className="bg-body-tertiary">
             <div className="container-lg">
@@ -16,7 +16,7 @@ const Header = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         
-                            <NavBar />
+                            <NavBar links={props.links} />
 
                     </div>
 
