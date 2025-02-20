@@ -13,12 +13,12 @@ nav ul li {
   font-size: 11px
 }
 
-ul li a.active,
-ul li a:hover {
+footer ul li a.active,
+footer ul li a:hover {
   background: lightblue;
 }
 
-footer ul li a {
+ul li a {
   font-size: 11px;
   color: lightgray
 }

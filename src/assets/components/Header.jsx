@@ -7,7 +7,6 @@ const Header = (props) => {
         <div className="bg-body-tertiary">
             <div className="container-lg">
                 <nav class="navbar navbar-expand-lg">
-
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt="DC Logo" height="60" />
                     </a>
@@ -15,8 +14,8 @@ const Header = (props) => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        
-                            <NavBar links={props.links} />
+
+                        <NavBar links={props.links} />
 
                     </div>
 
