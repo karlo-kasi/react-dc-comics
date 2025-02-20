@@ -1,7 +1,7 @@
 import Header from "./assets/components/Header"
 import Main from "./assets/components/Main"
 import Footer from "./assets/components/Footer"
-
+import comics from "../src/data/comics"
 
 const links = [
   { id: 1, text: "CHARACTERS", url: "#", current: false },
@@ -19,11 +19,11 @@ const links = [
 
 
 function App() {
-  
+
   return (
     <>
       <Header links={links} />
-      <Main />
+      <Main comics={comics} />
       <Footer />
     </>
   )

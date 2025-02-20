@@ -3,18 +3,17 @@ import img2 from "../img/buy-comics-merchandise.png"
 import img3 from "../img/buy-comics-shop-locator.png"
 import img4 from "../img/buy-comics-subscriptions.png"
 import img5 from "../img/buy-dc-power-visa.svg"
+import MangaList from "./Manga/MangaLists"
 
 
-const Main = () => {
+const Main = (props) => {
     return (
         <>
             <div className="bg-dark">
                 <div className="container">
-                    <div className="row text-center">
-                        <div className="col-12 text-light py-5">
-                            <h2>--&gt; Content goes here &lt;--</h2>
-                        </div>
-                    </div>
+                    
+                        <MangaList comics={props.comics} />
+                    
                 </div>
             </div>
 
