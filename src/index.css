@@ -23,8 +23,24 @@ ul li a {
   color: lightgray
 }
 
+.square-image {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
 
+}
 
 p {
   font-size: 13px;
+}
+
+.bg-jumbo {
+
+  background-image: url(../src/assets/img/jumbotron.jpg);
+  min-height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
 }

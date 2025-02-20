@@ -9,12 +9,13 @@ import MangaList from "./Manga/MangaLists"
 const Main = (props) => {
     return (
         <>
+            <div className="bg-jumbo position-relative">
+                {/* <div className="container">
+                    <button type="button" class="btn btn-primary position-absolute top-100 start-40 translate-middle">Primary</button>
+                </div> */}
+            </div>
             <div className="bg-dark">
-                <div className="container">
-                    
-                        <MangaList comics={props.comics} />
-                    
-                </div>
+                <MangaList comics={props.comics} />
             </div>
 
             <div className="bg-primary text-white text-center py-4">
